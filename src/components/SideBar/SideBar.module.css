@@ -1,0 +1,92 @@
+.sideBar__container{
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    border-right: #bdbdbd 1px solid;
+}
+.content{
+    height: 100%;
+    padding: 40px 60px;
+}
+.logo__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    color: #0177FD;
+}
+.logo__image__container{
+    width: 20%;
+}
+.logo__image{
+    width: 100%;
+    max-width: 100%;
+}
+.ul{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #343434;
+    padding: 40px 0;
+}
+.li{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__icons{
+    margin-right: 10px;
+}
+.nav__span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #0177FD;
+    border-radius: 15px;
+    color: white;
+    padding: 2px 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.hr{
+    border: 1px solid #CAC5C5;
+}
+.projects__container{
+    color: #343434;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 50px 0px;
+}
+.new__project__button__container{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #0177FD;
+}
+.add__new__project__button{
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+.logout__container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px 60px;
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #343434;
+}
+.logOut__icon{
+    margin-right: 10px;
+}

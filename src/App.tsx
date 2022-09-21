@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
+import SideBar from "./components/SideBar/SideBar";
 
 function App() {
   return (
     <div className="App">
-          <header className="header">
-            <div className="container">
-              <h1>333</h1>
-            </div>
-          </header>
+        <SideBar/>
     </div>
   );
 }
